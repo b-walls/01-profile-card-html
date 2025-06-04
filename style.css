@@ -1,0 +1,82 @@
+body {
+  background-color: lightblue; /* Light blue background for a friendly look */
+  font-family: 'Roboto', Arial, sans-serif; /* Use Roboto font, fallback to Arial or sans-serif */
+  display: flex; /* Enable Flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Make sure body takes at least full viewport height */
+  margin: 0; /* Remove default browser margin */
+}
+
+/* Style the profile card container */
+.profile-card {
+  background: #fff; /* White background for the card */
+  border: 1px solid #ccc; /* Light gray border around the card */
+  border-radius: 12px; /* Rounded corners */
+  padding: 2rem 2.5rem; /* Space inside the card: 2rem top/bottom, 2.5rem left/right */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* Subtle shadow for depth */
+  text-align: center; /* Center text inside the card */
+  max-width: 350px; /* Maximum width of the card */
+  width: 100%; /* Allow card to shrink on small screens */
+}
+
+/* Style all images globally */
+img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  border: 2px solid #ccc;
+}
+
+/* Remove bullet points and add spacing to all lists globally */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0 0;
+}
+
+ul li {
+  margin-bottom: 0.7rem;
+}
+
+/* Optional: Style the links for better appearance globally */
+ul li a {
+  text-decoration: none;
+  color: #002366;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+ul li a:hover {
+  color: #0056b3;
+}
+
+/* Center all h1 and h2 headings */
+h1, h2 {
+  text-align: center; /* Center headings horizontally */
+}
+
+/* Style the main heading (name) */
+h1 {
+  font-size: 3rem; /* Large font size for emphasis */
+  color: #002366; /* Dark blue color */
+  margin-bottom: 0.5rem; /* Space below the heading */
+}
+
+/* Style the subheading (role) */
+h2 {
+  font-size: 2rem; /* Slightly smaller than h1 */
+  color: slategray; /* Light gray color */
+  margin-top: 0; /* Remove space above */
+  margin-bottom: 1rem; /* Space below the subheading */
+}
+
+/* Style the paragraph (bio) */
+p {
+  font-size: 1.25rem; /* Medium-large font size for readability */
+  line-height: 1.6; /* Increase line spacing for better legibility */
+  margin: 0; /* Remove default margin */
+}
+
